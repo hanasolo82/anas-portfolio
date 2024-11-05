@@ -1,11 +1,8 @@
-
+import Header from "./components/Header"
 export default function App() {
   return (
-    <div>
-      <header>
-        <h1>ANÁS <span className="lastName">Elvira Fernandez</span></h1>
-        <h3>Frontent Developer</h3>
-      </header>
+    <div className="border-page">
+      <Header/>
       <main>
         <section>
           <h5>
