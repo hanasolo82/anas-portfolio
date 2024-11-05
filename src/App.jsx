@@ -1,8 +1,16 @@
-import Header from "./components/Header"
+import Header from "./components/Header";
+import Project from "./components/Project";
+
 export default function App() {
   return (
-    <div className="border-page">
+    <div className="container">
       <Header/>
+      <section className="timeline">
+        <h1 className="name">Anás Elvira Fernández</h1>
+        <Project/>
+        
+      </section>
+      
       <main>
         <section>
           <h5>
