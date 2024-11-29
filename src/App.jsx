@@ -24,9 +24,7 @@ export default function App() {
         <div className="project-container">
         <Project/>
         <Project/>
-        <Project/>
-        <Project/>
-        <Project/>
+        
         </div>
         
       </section>
