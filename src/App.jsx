@@ -10,15 +10,15 @@ export default function App() {
           <h1 className="header-name">
             Anás <br/>Elvira<br/> Fernández</h1>
           <h3 className="header-paragr">
-             "Decidí comenzar en el desarrollo web para explorar y entender los
+             Decidí comenzar en el desarrollo web para explorar y entender los
             fundamentos que construyen el ecosistema digital.
             <br />
-            El camino ya ha empezado, y este será el sitio donde mi aprendizaje
-            se hará visible.
+            
+            El camino ya ha empezado.
             <br />
-            Aquí encontrarás no solo un portafolio, sino una crónica de los
-            trabajos que he completado, una referencia para seguir avanzando con
-            determinación. "
+            
+            Aquí encontrarás una crónica de mis
+            trabajos...
           </h3>
         </div>
         <div className="project-container">
