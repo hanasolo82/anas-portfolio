@@ -1,5 +1,7 @@
 import Header from "./components/Header";
-import Project from "./components/Project";
+import OldProject from "./components/OldProject";
+import Project from "./components/Projects/index.js";
+import ProjectDate from "./components/Projects/ProjectDate.jsx";
 
 export default function App() {
   return (
@@ -22,8 +24,21 @@ export default function App() {
           </h3>
         </div>
         <div className="project-container">
-        <Project/>
-        <Project/>
+        <OldProject/>
+        <OldProject/>
+        
+        <Project>
+            <Project.Box>
+              <Project.Number>1</Project.Number>
+              
+                  <img className="box-second-img"src="src\img\tr.jpg"/>
+                  <img className="box-first-img"src="src\img\tr.jpg"/>
+                  <img className="box-third-img"src="src\img\tr.jpg"/>
+              
+              <Project.Name>Jammming</Project.Name>
+              <Project.Date>10.03.24</Project.Date>
+            </Project.Box>
+        </Project>
         
         </div>
         
