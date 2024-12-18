@@ -1,13 +1,15 @@
 import classnames from 'classnames'
 
-export default function ProjectNumber({ className, ...rest }) {
+export default function ProjectLink({ children, className, ...rest }) {
 
 
 const allClasses = classnames(className)
     return (
-        <>
-            <img className={allClasses} {...rest}/>
-        </>
+        
+            <div className={allClasses} {...rest}>
+                {children}
+            </div>    
+        
       
     )
 }

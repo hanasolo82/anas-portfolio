@@ -1,9 +1,10 @@
 
 
-export default function ProjectBox({children}) {
+export default function ProjectBox({children , href, target}) {
+
     return (
-        <div className="project-box">
+        <a className="project-box" href={href} target={target}>
             {children}
-        </div>
+        </a>
     )
 }
