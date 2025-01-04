@@ -1,9 +1,9 @@
 import Header from "./components/Header";
 import Project from "./components/Projects/index.js";
-import data from'./components/Projects/data.js'
+import datas from'./components/Projects/data.js'
 
 export default function App() {
-  console.log(data)
+  console.log(datas)
   return (
     <div className="container">
       <Header/>
@@ -21,22 +21,24 @@ export default function App() {
             trabajos...
           </h3>
         </div>
-        <div className="project-container">
+        {datas.map(data => (
+        <div key={data.id} className="project-container">
         <Project>
-          {
-            <Project.Box 
-              href={'https://anas-travel-journal.netlify.app'} 
-              target="_blank">
-              <Project.Number>1</Project.Number> 
-                  <img className="box-first-img"src="src\img\tr.jpg"/>
-                  <img className="box-second-img"src="src\img\tr.jpg"/>
-                  <img className="box-third-img"src="src\img\tr.jpg"/>
-              <Project.Name>Jammming</Project.Name>
-              <Project.Date>10.03.24</Project.Date>
-            </Project.Box>
-          }
+            <Project.Box
+             
+            href={data.link} 
+            target="_blank">
+            <Project.Number>{data.id}</Project.Number> 
+                <img className="box-first-img"src="src\img\tr.jpg"/>
+                <img className="box-second-img"src="src\img\tr.jpg"/>
+                <img className="box-third-img"src="src\img\tr.jpg"/>
+            <Project.Name>{data.name}</Project.Name>
+            <Project.Date>{data.date}</Project.Date>
+          </Project.Box>
         </Project>
         </div>
+      
+    ))}
       </section>
     </div>
   );
