@@ -21,15 +21,15 @@ export default function App() {
             trabajos...
           </h3>
         </div>
+        <div className="project-container">
         {datas.map(data => (
-        <div key={data.id} className="project-container">
+        <div key={data.id} >
         <Project>
             <Project.Box
-             
-            href={data.link} 
-            target="_blank">
+              href={data.link} 
+              target="_blank">
             <Project.Number>{data.id}</Project.Number> 
-                <img className="box-first-img"src="src\img\tr.jpg"/>
+                <img className="box-first-img"src="src\img\tr.jpg" alt={`Project ${data.id} - 1`}/>
                 <img className="box-second-img"src="src\img\tr.jpg"/>
                 <img className="box-third-img"src="src\img\tr.jpg"/>
             <Project.Name>{data.name}</Project.Name>
@@ -37,8 +37,8 @@ export default function App() {
           </Project.Box>
         </Project>
         </div>
-      
-    ))}
+        ))}
+        </div>
       </section>
     </div>
   );
