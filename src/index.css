@@ -8,6 +8,10 @@ html {
     background-color: #0C4A6E;
     
 }
+img {
+    border: 2px solid transparent; /* Borde transparente */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Sombra difusa */
+}
 .container {
     display: flex;
     flex-direction: column;

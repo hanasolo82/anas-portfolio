@@ -27,6 +27,7 @@
     },
     {   id : 5, 
         name : 'Travel Journal',
+        image : ["/Screenshot-my-travel-journal.png"],
         link : "https://anas-travel-journal.netlify.app",
         date : '15.11.24',
         description : 'Components reusability, another basic exercise'
