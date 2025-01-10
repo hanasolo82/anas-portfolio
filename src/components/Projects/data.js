@@ -1,6 +1,6 @@
 
 
- const datas = [
+ const data = [
     {   id : 1, 
         name : 'airbnb-clone',
         link : "https://anas-react-proyect-01.netlify.app/",
@@ -58,5 +58,6 @@
     },
 
 ]
+const datas = data.sort((a, b) => new Date(a.date) - new Date(b.date))
 
 export default datas

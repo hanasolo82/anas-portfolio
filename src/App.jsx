@@ -21,9 +21,9 @@ export default function App() {
               href={data.link} 
               target="_blank">
             <Project.Number>{data.id}</Project.Number> 
-                <img className="box-first-img"src={data.image?.[0]} alt={`Project ${data.id} - 1`}/>
-                {data.image?.[1] ? <img className="box-second-img"src={data.image[1]}/> : null}
-                <img className="box-third-img"src={data.image?.[2]}/>
+                {data.image?.[0] ? <img className="box-first-img"src={data.image[0]} alt={`Project ${data.id} - 1`}/> : null}
+                {data.image?.[1] ? <img className="box-second-img"src={data.image[1] } alt={`Project ${data.id} - 2`}/> : null}
+                {data.image?.[2] ? <img className="box-third-img"src={data.image[2]} alt={`Project ${data.id} - 3`}/> : null}
             <Project.Name>{data.name}</Project.Name>
             <Project.Date>{data.date}</Project.Date>
           </Project.Box>
