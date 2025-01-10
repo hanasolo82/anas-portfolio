@@ -3,12 +3,14 @@
  const data = [
     {   id : 1, 
         name : 'airbnb-clone',
+        image : ["/base-airbnb.png"],
         link : "https://anas-react-proyect-01.netlify.app/",
         date : '21.08.24',
         description : 'Basics of React components'
     },
     {   id : 2, 
         name : 'Meme-Generator',
+        image : ["public/meme-01.png", "public/meme-02.png", "public/meme-03.png"],
         link : "https://anasmemegenerator-project-2.netlify.app",
         date : '08.09.24',
         description : 'Mapping data and input control'
@@ -27,7 +29,7 @@
     },
     {   id : 5, 
         name : 'Travel Journal',
-        image : ["/Screenshot-my-travel-journal.png"],
+        image : ["public/base-travel-journal.png"],
         link : "https://anas-travel-journal.netlify.app",
         date : '15.11.24',
         description : 'Components reusability, another basic exercise'
