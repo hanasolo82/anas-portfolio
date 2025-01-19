@@ -54,9 +54,15 @@
     },
     {   id : 9, 
         name : 'Van Life',
-        link : "",
+        link : "https://anas-van-life.netlify.app",
         date : '21.12.24',
         description : 'Avanced React with React Router'
+    },
+    {   id : 10, 
+        name : 'Password Gen',
+        link : "https://anas-password-gen.app",
+        date : '19.01.24',
+        description : 'Basic Js deploiment'
     },
 
 ]
