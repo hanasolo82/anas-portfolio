@@ -64,6 +64,18 @@
         date : '19.01.24',
         description : 'Basic Js deploiment'
     },
+    {   id : 11, 
+        name : 'Crome Extension',
+        link : "",
+        date : '02.02.25',
+        description : 'Crome Js deploiment'
+    },
+    {   id : 12, 
+        name : 'Unit Converter',
+        link : "",
+        date : '03.02.25',
+        description : 'Js deploiment'
+    },
 
 ]
 const datas = data.sort((a, b) => new Date(a.date) - new Date(b.date))
