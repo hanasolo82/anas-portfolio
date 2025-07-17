@@ -23,7 +23,7 @@
     },*/
     {   id : 4, 
         name : 'Note-App',
-        image : ["/Notes_01.png, Notes_02.png"],
+        image : ["/Notes_01.png", "Notes_02.png"],
         link : "https://note-app-24.netlify.app",
         date : '15.11.24',
         description : 'A \'complex\' app to lear how to manage and save data'
@@ -44,14 +44,14 @@
     },
     {   id : 7, 
         name : 'Scoreboard',
-        image : ["/scoreboard.png"],
+        image : ["/Scoreboard.png"],
         link : "https://anas-scoreboard.netlify.app",
         date : '12.12.24',
         description : 'JavaScript Basics'
     },
     {   id : 8, 
         name : 'jammming',
-        image : ["/jamming.png"],
+        image : ["/Jamming.png"],
         link : "https://jamming2024.netlify.app",
         date : '21.12.24',
         description : 'Api solo project, that takes spotify info and create new lists'

@@ -10,7 +10,7 @@ html {
 }
 img {
     border: 2px solid transparent; /* Borde transparente */
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Sombra difusa */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Sombra difusa */
 }
 .container {
     display: flex;
@@ -162,7 +162,7 @@ a:hover {
         font-size: 3rem;
     }
     .project-container {
-        border: 1px solid;
+        
         grid-template-columns: 1fr 1fr;
         padding: 2rem;
         min-width: 100rem;
@@ -188,16 +188,18 @@ a:hover {
     background-color: transparent;
     border: 0.2rem solid #0C4A6E;
 }
+/*
 @media (min-width: 600px) {
 .project-container > :nth-child(1) {
-    margin-bottom: 2rem; /* Diferente margen inferior para el primer hijo */
+    margin-bottom: 2rem; /* Diferente margen inferior para el primer hijo 
 }
 
 .project-container > :nth-child(2) {
-    margin-top: 20rem; /* Diferente margen superior para el segundo hijo */
+    margin-top: 20rem; /* Diferente margen superior para el segundo hijo 
 }
 }
-.box-number{
+*/
+.box-number {
     top: 2rem;
     left: 1rem;
     position: absolute;
