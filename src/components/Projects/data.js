@@ -51,6 +51,7 @@
     },
     {   id : 8, 
         name : 'jammming',
+        image : "/jamming.png",
         link : "https://jamming2024.netlify.app",
         date : '21.12.24',
         description : 'Api solo project, that takes spotify info and create new lists'
