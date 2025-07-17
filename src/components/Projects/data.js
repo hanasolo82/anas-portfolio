@@ -30,28 +30,28 @@
     },
     {   id : 5, 
         name : 'Travel Journal',
-        image : "/base-travel-journal.png",
+        image : ["/base-travel-journal.png"],
         link : "https://anas-travel-journal.netlify.app",
         date : '15.11.24',
         description : 'Components reusability, another basic exercise'
     },
     {   id : 6, 
         name : 'Tenzies',
-        image : "/Tenzies.png",
+        image : ["/Tenzies.png"],
         link : "https://anas-tenzies-2024.netlify.app",
         date : '19.11.24',
         description : 'A basic React game, but not too basic'
     },
     {   id : 7, 
         name : 'Scoreboard',
-        image : "/scoreboard.png",
+        image : ["/scoreboard.png"],
         link : "https://anas-scoreboard.netlify.app",
         date : '12.12.24',
         description : 'JavaScript Basics'
     },
     {   id : 8, 
         name : 'jammming',
-        image : "/jamming.png",
+        image : ["/jamming.png"],
         link : "https://jamming2024.netlify.app",
         date : '21.12.24',
         description : 'Api solo project, that takes spotify info and create new lists'
@@ -64,7 +64,7 @@
     },*/
     {   id : 10, 
         name : 'Password Gen',
-        image : "/Password_Gen.png",
+        image : ["/Password_Gen.png"],
         link : "https://anas-password-gen.app",
         date : '19.01.24',
         description : 'Basic Js deploiment'
