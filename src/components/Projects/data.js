@@ -15,12 +15,12 @@
         date : '08.09.24',
         description : 'Mapping data and input control'
     },
-    {   id : 3, 
+    /*{   id : 3, 
         name : 'Digital Bussines Card',
         link : "https://bussines-card-anas.netlify.app",
         date : '29.09.24',
         description : 'Components reusability'
-    },
+    },*/
     {   id : 4, 
         name : 'Note-App',
         image : ["/Notes_01.png, Notes_02.png"],
