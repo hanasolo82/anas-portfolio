@@ -21,35 +21,35 @@
         date : '29.09.24',
         description : 'Components reusability'
     },*/
-    {   id : 4, 
+    {   id : 3, 
         name : 'Note-App',
         image : ["/Notes_01.png", "Notes_02.png"],
         link : "https://note-app-24.netlify.app",
         date : '15.11.24',
         description : 'A \'complex\' app to lear how to manage and save data'
     },
-    {   id : 5, 
+    {   id : 4, 
         name : 'Travel Journal',
         image : ["/base-travel-journal.png"],
         link : "https://anas-travel-journal.netlify.app",
         date : '15.11.24',
         description : 'Components reusability, another basic exercise'
     },
-    {   id : 6, 
+    {   id : 5, 
         name : 'Tenzies',
         image : ["/Tenzies.png"],
         link : "https://anas-tenzies-2024.netlify.app",
         date : '19.11.24',
         description : 'A basic React game, but not too basic'
     },
-    {   id : 7, 
+    {   id : 6, 
         name : 'Scoreboard',
         image : ["/Scoreboard.png"],
         link : "https://anas-scoreboard.netlify.app",
         date : '12.12.24',
         description : 'JavaScript Basics'
     },
-    {   id : 8, 
+    {   id : 7, 
         name : 'jammming',
         image : ["/Jamming.png"],
         link : "https://jamming2024.netlify.app",
@@ -62,7 +62,7 @@
         date : '21.12.24',
         description : 'Avanced React with React Router'
     },*/
-    {   id : 10, 
+    {   id : 8, 
         name : 'Password Gen',
         image : ["/Password_Gen.png"],
         link : "https://anas-password-gen.app",
